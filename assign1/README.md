@@ -3,12 +3,13 @@ Solutions to Assignment 1
 The Questions for the assignment can be found in the `.pdf` file.
 The solutions for the questions are given below.
 
+-------
 ### Question 1
 
 __NOTE__: Each of these regular expressions can be evaluated using the `q1.py` file where functions to match Strings with each of these expressions have been defined.
 
 ------
-a. Strings of lower case that contain the vowels in order.
+**a.** Strings of lower case that contain the vowels in order.
 
 The following regular expression will be able to detect strings for the given problem.
 ```
@@ -16,7 +17,7 @@ The following regular expression will be able to detect strings for the given pr
 ```
 
 ----
-b. Strings of lower case in ascending lexographic order.
+**b.** Strings of lower case in ascending lexographic order.
 
 The following regular expression will be able to detect strings for the given problem.
 ```
@@ -24,7 +25,7 @@ a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*q*x*y*z*$
 ```
 
 ---
-c. Strings surrounded by `/*` and `*/` without intervening `*/` unless in `""`.
+**c.** Strings surrounded by `/*` and `*/` without intervening `*/` unless in `""`.
 
 The following regular expression will be able to detect strings for the given problem.
 ```
@@ -33,7 +34,7 @@ The following regular expression will be able to detect strings for the given pr
 __NOTE__: `*` is a special character in regular expressions and as such an escape character is used before it. `\*` is the same as the `*` character.
 
 ---
-d. Strings with no repeated digits.
+**d.** Strings with no repeated digits.
 
 The given problem will require a DFA with around `10!` states, such a DFA is not easily represented and the regular expression to represent the same will be very complex. A small modification will allow us to simplify the problem such that no two consecutive digits are same. This will allow `0102` to pass, but will not allow `0012` to pass.
 
