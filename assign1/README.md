@@ -1,5 +1,6 @@
-Solutions to Assignment 1
-=====================
+# Solutions to Assignment 1
+## Chris Andrew (IS201401015)
+---
 The Questions for the assignment can be found in the `.pdf` file.
 The solutions for the questions are given below.
 
@@ -109,3 +110,13 @@ The following NFA defined in the standard notation can be used to accept such st
 ```
 -------
 ### Question 2
+
+The file `q2.l` contains the source code for the second question.
+Test cases for each are in the files `test.txt`.
+
+To run the program do the following:
+```bash
+lex q1.l
+g++ lex.yy.c -ll
+./a.out < tests.txt
+```
